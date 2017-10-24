@@ -1,3 +1,13 @@
+感谢原作者https://github.com/wppurking/ocserv-docker
+
+已经修复dockerfile 文件可以正常构建image
+
+
+默认配置文件已经同时支持用户名或者证书登录。只需要在客户端高级选项设置即可
+不上服务商只能用自己生成的 ca  证书。
+
+
+
 ## 用途
 
 因为安装一个 Open Connect 的步骤实在太麻烦了, 特别对于新手, 所以特意参考了 jpetazzo 的 [dockvpn](https://github.com/jpetazzo/dockvpn) 弄了一个 ocserv 的. 此项目的原因和一点点介绍可见 [使用 ocserv-docker 享受自由网络](http://wppurking.github.io/2014/10/11/use-ocserv-docker-to-enjoy-freedom-internet.html)
